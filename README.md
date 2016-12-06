@@ -14,6 +14,6 @@ For questions, please contact Adyasha at adyasha@uw.edu or Elaine at en22@uw.edu
 
 * **combineData.ipynb**: This jupyter notebook contains the code to combine two files, one containing the geographic location of a tweet and the other containing all other information about the tweet, related by a tweet-id. The output file is used for mapping the geo-spatial distribution of 'sick' tweets using R scripts present in the repository
 
-* **mappingCode_new.R**: This R script contains the code to generate geo-spatial mappings of tweet distributions in three of the most populated states of Brazil: Sao Paulo, Mineas Gerais and Rio Janeiro
+* **mappingCode_new.R**: This R script contains the code to generate geo-spatial mappings of tweet distributions in three of the most populated states of Brazil: Sao Paulo, Minas Gerais and Rio Janeiro
 
 
