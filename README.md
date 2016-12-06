@@ -1,10 +1,12 @@
 # Social Media as a sentinel for disease surveillance: what does sociodemographic status have to do with it?
 
-The data and code in this repository allows users to replicate results and generate figures appearing in the main text of the paper *Social Media as a sentinel for disease surveillance: what does sociodemographic status have to do with it?* 
+The code in this repository was used in analyzing the data presented in the paper *Social Media as a sentinel for disease surveillance: what does sociodemographic status have to do with it?* 
 
 Code was written in R 3.2.2 and Python 3.4.3+
 
-Users of this data should cite Nsoesie, Elaine, et. al. (2017). If you find a consequential error, please email Adyasha at adyasha@uw.edu
+Users of this code should cite, Nsoesie EO, et al. Social Media as a Sentinel for Disease Surveillance: What Does Sociodemographic Status Have to Do with It?. PLOS Currents Outbreaks. 2016 Dec 5 . Edition 1. doi: 10.1371/currents.outbreaks.cc09a42586e16dc7dd62813b7ee5d6b6.). 
+
+For questions, please contact Adyasha at adyasha@uw.edu or Elaine at en22@uw.edu or @ensoesie.
 
 ## Description of the Files
 
