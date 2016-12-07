@@ -1,5 +1,5 @@
 #Set Working Directory
-setwd("C:/Users/adyas/Documents/RA@IHME/dengueTweets")
+setwd("~/Documents/dengueTweets")
 
 # For Windows - in each session
 # Adjust the path to match your installation of Ghostscript
@@ -106,7 +106,7 @@ for (i in 1:rows)
 print("Counting Tweets - DOne")
 
 # Match File
-matchfname = "Municipality_code.txt"
+matchfname = "Mapping Data/Municipality_code.txt"
 data <- read.csv(matchfname)
 match = as.matrix(data)
 matchvec = c()
@@ -118,8 +118,8 @@ for (i in 1:length(match))
 # Minas Gerais
 
 #Filenames
-mgfname13 <- "DENGN2013_MG_County_Monthly.txt"
-mgfname14 <- "DENGN2014_MG_County_Monthly.txt"
+mgfname13 <- "Mapping Data/DENGN2013_MG_County_Monthly.txt"
+mgfname14 <- "Mapping Data/DENGN2014_MG_County_Monthly.txt"
 
 # County names in shape file and tweet files are not the same. String similarity is used to
 # map the names from one file to another and create unique keys for integration of 2 vectors
@@ -225,8 +225,8 @@ dev.off()
 # Rio Janeiro
 
 #Filenames
-rjfname13 <- "DENGN2013_RJ_County_Monthly.txt"
-rjfname14 <- "DENGN2014_RJ_County_Monthly.txt"
+rjfname13 <- "Mapping Data/DENGN2013_RJ_County_Monthly.txt"
+rjfname14 <- "Mapping Data/DENGN2014_RJ_County_Monthly.txt"
 
 # County names in shape file and tweet files are not the same. String similarity is used to
 # map the names from one file to another and create unique keys for integration of 2 vectors
@@ -319,8 +319,8 @@ dev.off()
 #Sao Paulo
 
 #Filenames
-spfname13 <- "DENGN2013_SP_County_Monthly.txt"
-spfname14 <- "DENGN2014_SP_County_Monthly.txt"
+spfname13 <- "Mapping Data/DENGN2013_SP_County_Monthly.txt"
+spfname14 <- "Mapping Data/DENGN2014_SP_County_Monthly.txt"
 
 # County names in shape file and tweet files are not the same. String similarity is used to
 # map the names from one file to another and create unique keys for integration of 2 vectors
