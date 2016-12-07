@@ -16,10 +16,8 @@ For questions, please contact Adyasha at adyasha@uw.edu or Elaine at en22@uw.edu
 
 * **mappingCode_new.R**: This R script contains the code the variables required to generate geo-spatial mappings of tweet distributions in three of the most populated states of Brazil: Sao Paulo, Minas Gerais and Rio Janeiro
 
-* **spatial_plots.R**: This R Script generates Figure 1 from the paper i.e. the plot comparing Dengue Tweet Density and Actual Case Density among the three states: Sao Paulo, Minas Gerais and Rio Janeiro, using the variables saved by executing the script mappingCode_new.R
+* **spatial_plots.R**: This R Script generates Figure 1 from the paper i.e. the plot comparing Dengue Tweet Count and Case Count among the three states: Sao Paulo, Minas Gerais and Rio Janeiro, using the variables saved by executing the script mappingCode_new.R
 
 * **Boxplots.R**: This R script generates Figure 2 from the paper i.e. a comparison of distribution of relevant socio-demographic indices among social media users
 
-* **Barplots_regression.R**: This R Script generates Figure 3 from the paper i.e. a time-series plot of actual dengue case and tweets counts, and a univariate regression model fitted to the time-series plots
-
-
+* **Barplots_Regression.R**: This R Script generates Figure 3 from the paper i.e. a time-series plot of actual dengue case and tweet counts, and a univariate regression model fitted to the time-series plots
